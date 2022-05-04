@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: argocd-example-v1
+  name: example-1
   labels:
-    release: argocd-example-v1
+    release: example-1
 spec:
   replicas: 1
   selector:
     matchLabels:
-      release: argocd-example-v1
+      release: example-1
   template:
     metadata:
       labels:
-        release: argocd-example-v1
+        release: example-1
     spec:
       containers:
         - name: main

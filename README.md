@@ -1,1 +1,1 @@
-# argocd-example-v1
+# example-1
